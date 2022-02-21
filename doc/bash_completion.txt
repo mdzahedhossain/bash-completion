@@ -56,7 +56,7 @@
     for additional completions.  This may be a slow operation in some setups.
     Default is unset.
 
-*COMP_TAR_INTERNAL_PATHS*::
+*BASH_COMPLETION_CMD_TAR_INTERNAL_PATHS*::
     If set and not null *before sourcing* the `tar` completion, it will do
     correct path completion for tar file _contents_.  If unset or null,
     _paths to_ tar files will be correctly completed. Unfortunately we do not
